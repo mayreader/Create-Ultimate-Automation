@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "create-ultimate-automation",
+	"version": "${version}",
+	"name": "Create: Ultimate Automation",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://maysonreader.tech/",
+		"sources": "https://github.com/mayreader/Create-Ultimate-Automation/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/create-ultimate-automation/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.maysonbean.create_ultimate_automation.CreateUltimateAutomation"
+		]
+	},
+	"mixins": [
+		"create-ultimate-automation.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"create": "0.5.1-f-build.1335+mc1.20.1",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
